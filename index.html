@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>My Portfolio</title>
+		<link rel="stylesheet" href="general.css" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="queries.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+		></script>
+		<script
+			nomodule
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+		></script>
+	</head>
+	<body>
+		<header class="header">
+			<a href="#"><ion-icon class="education-icon" name="battery-full-outline"></ion-icon> <img class="logo" src="img/logo.png" alt="" /></a>
+			<nav class="nav">
+				<ul class="nav-option">
+					<li><a class="nav-text" href="#">Myself</a></li>
+					<li><a class="nav-text" href="#education">Education</a></li>
+					<li><a class="nav-text" href="#skills">Skills</a></li>
+					<li><a class="nav-text" href="#footer">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<section class="section-hero" id="hero">
+				<div class="hero">
+					<div class="hero-text-box">
+						<h1 class="heading-primary">
+							Hi, I am <span class="name">Ganesh</span>
+						</h1>
+						<p class="hero-status">
+							Student at KLS GIT | Graphic Designer | Web Developer
+						</p>
+						<p class="hero-description">
+							Creativity is the key to imagination, being creative I design
+							poster, logo and website making it attractive and I make my
+							imagination into reality playing with colors
+						</p>
+						<a href="#education" class="btn btn--outline">More About me &darr;</a>
+					</div>
+					<div class="hero-img-box">
+						<img class="hero-img" src="img/GaneshM.png" alt="Ganesh Margale" />
+					</div>
+				</div>
+			</section>
+
+			<section class="section-education" id="education">
+				<div class="container">
+					<span class="subheading">Education</span>
+					<h2 class="heading-secondary">My Educational Background</h2>
+				</div>
+				<div class="container grid grid-3-columns margin-bottom-md">
+					<div class="education">
+						<img
+							src="img/DPM.png"
+							class="img-education"
+							alt="Primary and Secondary Education"
+						/>
+						<div class="education-content">
+							<div class="education-tags">
+								<span class="tag">2009 - 2019</span>
+							</div>
+							<p class="education-title">Primary & Secondary</p>
+							<p class="education-name">Dnyan Prabodhan Mandir</p>
+							<ul class="education-attributes">
+								<li class="education-attribute">
+									<ion-icon
+										class="education-icon"
+										name="location-outline"
+									></ion-icon>
+									<span>Udyambag Belagavi</span>
+								</li>
+								<li class="education-attribute">
+									<ion-icon
+										class="education-icon"
+										name="school-outline"
+									></ion-icon>
+									<span>Percentage<strong> 93.44</strong></span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="education">
+						<img
+							src="img/RLS.png"
+							class="img-education"
+							alt="Raja Lakhamgouda Science Institute of Technology"
+						/>
+						<div class="education-content">
+							<div class="education-tags">
+								<span class="tag">2019 - 2021</span>
+							</div>
+							<p class="education-title">Pre-University</p>
+							<p class="education-name">Raja Lakhamgouda Science Institute</p>
+							<ul class="education-attributes">
+								<li class="education-attribute">
+									<ion-icon
+										class="education-icon"
+										name="location-outline"
+									></ion-icon>
+									<span>Bogarves Belagavi</span>
+								</li>
+								<li class="education-attribute">
+									<ion-icon
+										class="education-icon"
+										name="school-outline"
+									></ion-icon>
+									<span>Percentage<strong> 96.00</strong></span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="education">
+						<img
+							src="img/KLS GIT.png"
+							class="img-education"
+							alt="Japanese Gyozas"
+						/>
+						<div class="education-content">
+							<div class="education-tags">
+								<span class="tag">2021 - Present</span>
+							</div>
+							<p class="education-title">University</p>
+							<p class="education-name">Gogte Institute of Technology</p>
+							<ul class="education-attributes">
+								<li class="education-attribute">
+									<ion-icon
+										class="education-icon"
+										name="location-outline"
+									></ion-icon>
+									<span>Udyambag Belagavi</span>
+								</li>
+								<li class="education-attribute">
+									<ion-icon
+										class="education-icon"
+										name="school-outline"
+									></ion-icon>
+									<span>Current CGPA<strong> 9.65</strong></span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section-skills" id="skills">
+				<div class="container">
+					<span class="subheading">Skills</span>
+					<h2 class="heading-secondary">My Skillset and Works done</h2>
+				</div>
+				<div class="container skill-grid">
+					<div class="progress-bar">
+						<p class="progress">Graphics Designing <strong>100%</strong></p>
+						<div class="percent">
+							<div class="percent-bar graphics"></div>
+						</div>
+						<p class="progress">
+							Hyertext Markup Language <strong>75%</strong>
+						</p>
+						<div class="percent">
+							<div class="percent-bar html"></div>
+						</div>
+						<p class="progress">Cascading Style Sheet <strong>75%</strong></p>
+						<div class="percent">
+							<div class="percent-bar css"></div>
+						</div>
+						<p class="progress">JavaScript <strong>50%</strong></p>
+						<div class="percent-last">
+							<div class="percent-bar js"></div>
+						</div>
+					</div>
+					<div class="work-carousel">
+						<div class="carousel">
+							<img
+								src="img/Cauorsel/Web Development Workshop 1.png"
+								alt="Image 1"
+							/>
+							<img src="img/Cauorsel/PICTURESQUE 2.0.png" alt="Image 2" />
+							<img src="img/Cauorsel/Gdg.png" alt="Image 3" />
+							<img src="img/Cauorsel/Logo design.png" alt="Image 3" />
+						</div>
+					</div>
+				</div>
+				<div class="container programming">
+					<div>
+						<h3 class="heading-tertiary">Programming Language known</h3>
+						<div class="language">
+							<ul class="program">
+								<li class="programs">
+									<ion-icon name="bug-outline"></ion-icon> <strong>C</strong>
+								</li>
+								<li class="programs">Intermediate</li>
+							</ul>
+							<ul class="program">
+								<li class="programs">
+									<ion-icon name="bug-outline"></ion-icon> <strong>C++</strong>
+								</li>
+								<li class="programs">Intermediate</li>
+							</ul>
+							<ul class="program">
+								<li class="programs">
+									<ion-icon name="bug-outline"></ion-icon> <strong>Java</strong>
+								</li>
+								<li class="programs">Intermediate</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer" id="footer">
+			<div class="container grid grid-footer">
+				<div class="logo-col">
+					<a class="footer-logo" href="#"><ion-icon class="education-icon" name="battery-full-outline"></ion-icon> 
+						<img class="logo" src="img/logo.png" alt="Omnifood logo" />
+					</a>
+
+					<ul class="social-links">
+						<li>
+							<a
+								class="footer-link"
+								href="https://www.instagram.com/ganesh_026/?next=%2F"
+								><ion-icon class="social-icons" name="logo-instagram"></ion-icon
+							></a>
+						</li>
+						<li>
+							<a
+								class="footer-link"
+								href="https://www.linkedin.com/in/ganesh-s-margale-4069a122b/"
+								><ion-icon class="social-icons" name="logo-linkedin"></ion-icon
+							></a>
+						</li>
+						<li>
+							<a class="footer-link" href="https://leetcode.com/Ganesh026/"
+								><ion-icon class="social-icons" name="bug-outline"></ion-icon></ion-icon
+							></a>
+						</li>
+					</ul>
+					<p class="copyright">
+						Copyright &copy; 2027 Portfolio, Inc. All rights reserved.
+					</p>
+				</div>
+				<div class="address-col">
+					<p class="footer-heading">Contact me</p>
+					<address class="contact">
+						<p class="address">Fulbag Galli Belagavi</p>
+						<p>
+							<a class="footer-link" href="tel:9483120427">9483120427</a><br />
+							<a class="footer-link" href="mailto:ganeshmargale026@gmail.com"
+								>ganeshmargale026@gmail.com</a
+							>
+						</p>
+					</address>
+				</div>
+				<nav class="nav-col">
+					<p class="footer-heading">Deliveries</p>
+					<ul class="footer-nav">
+						<li><a class="footer-link" href="#">Logo Design</a></li>
+						<li><a class="footer-link" href="#">Poster Design</a></li>
+						<li><a class="footer-link" href="#">Websites</a></li>
+					</ul>
+				</nav>
+
+				<nav class="nav-col">
+					<p class="footer-heading">Portfolio</p>
+					<ul class="footer-nav">
+						<li><a class="footer-link" href="#">Myself</a></li>
+						<li><a class="footer-link" href="#">Education</a></li>
+						<li><a class="footer-link" href="#">Skills</a></li>
+						<li><a class="footer-link" href="#">Contact</a></li>
+					</ul>
+				</nav>
+
+				<nav class="nav-col">
+					<p class="footer-heading">Resources</p>
+					<ul class="footer-nav">
+						<li><a class="footer-link" href="#">99 designs</a></li>
+						<li><a class="footer-link" href="#">Dribble</a></li>
+						<li><a class="footer-link" href="#">Fiverr</a></li>
+					</ul>
+				</nav>
+			</div>
+		</footer>
+	</body>
+</html>
